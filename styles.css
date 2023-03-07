@@ -3,3 +3,25 @@
   margin: 0;
   padding: 0;
 }
+
+#active-tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  height: 30px;
+  font-size: 15px;
+  font-family: Roboto;
+  background-color: #FDFFFE;
+  border-radius: 5px 5px 0 0;
+  padding-left: 10px;
+}
+
+.close {
+  font-size: 15px;
+}
+
+#tabs-bar {
+  background-color: #DDE2E5;
+  padding-left: 15px;
+}
