@@ -80,11 +80,6 @@
   background-color: #eaecec;
 }
 
-#input-outline:focus-within {
-  outline: none;
-  background-color: #FDFFFE;
-}
-
 #url-box-icons {
   display: flex;
   justify-content: space-between;
