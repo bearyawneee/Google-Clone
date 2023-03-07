@@ -4,6 +4,28 @@
   padding: 0;
 }
 
+#tabs-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#tabs-bar-icons {
+  display: flex;
+  padding-right: 10px;
+  width: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.minimize {
+  font-size: 20px;
+}
+
+.restore {
+  font-size: 15px;
+}
+
 #active-tab {
   display: flex;
   justify-content: space-between;
@@ -14,7 +36,7 @@
   font-family: Roboto;
   background-color: #FDFFFE;
   border-radius: 5px 5px 0 0;
-  padding-left: 10px;
+  padding: 0 10px;
 }
 
 .close {
@@ -22,6 +44,38 @@
 }
 
 #tabs-bar {
-  background-color: #DDE2E5;
+  background-color: #eaecec;
   padding-left: 15px;
+}
+
+#url-box {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 5px 10px;
+  background-color: #FDFFFE;
+}
+
+#page-settings-icons {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#url-input-bar {
+  width: 1100px;
+  border: none;
+  background-color: #eaecec;
+  padding: 0 10px;
+  border-radius: 100px;
+}
+
+#url-input-bar:focus {
+  border: rgb(124, 124, 238) 5px solid;
+  background-color: #FDFFFE;
+}
+
+#url-box-icons {
+  transform: translateX(-25px);
 }
